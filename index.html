@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>LMS E7 Form</title>
+	</head>
+	
+	<body>
+		<form action="/api/courses"   class="form-signin" method = "POST">
+		
+			<table align="center">
+				<tr>
+					<td align="center" colspan="2"><h2>Course</h2></td>
+				</tr>
+				<tr>
+					<td>Course Name:</td>
+					<td><input type="text" name = "name" /></td>
+				</tr>
+				<tr>
+					<td>Code:</td>
+					<td><input type="text" name = "code" /></td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td><input type="text" name = "description" /></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="" type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br>
+		<br>
+		<form action="/api/students"   class="form-signin" method = "POST">
+			<table align="center">
+				<tr>
+					<td align="center" colspan="2"><h2>Student</h2></td>
+				</tr>
+				<tr>
+					<td>Student Name:</td>
+					<td><input type="text" name = "name" /></td>
+				</tr>
+				<tr>
+					<td>Code:</td>
+					<td><input type="text" name = "code" /></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="" type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
